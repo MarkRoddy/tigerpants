@@ -34,7 +34,8 @@ Gem::Specification.new do |s|
   s.rubygems_version = %q{1.3.6}
   s.summary = %q{undecided}
   s.test_files = [
-    "test/helper.rb",
+    "spec/thing.rb",
+     "test/helper.rb",
      "test/test_tigerpants.rb"
   ]
 
