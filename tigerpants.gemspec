@@ -25,7 +25,8 @@ Gem::Specification.new do |s|
      "VERSION",
      "lib/tigerpants.rb",
      "test/helper.rb",
-     "test/test_tigerpants.rb"
+     "test/test_tigerpants.rb",
+     "tigerpants.gemspec"
   ]
   s.homepage = %q{http://github.com/chrislerum/tigerpants}
   s.rdoc_options = ["--charset=UTF-8"]
