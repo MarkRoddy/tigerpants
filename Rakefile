@@ -3,15 +3,15 @@ require 'rake'
 
 begin
   require 'jeweler'
-  Jeweler::Tasks.new do |gem|
-    gem.name = "tigerpants"
-    gem.summary = %Q{undecided}
-    gem.description = %Q{undecided}
-    gem.email = "chris.lerum@gmail.com"
-    gem.homepage = "http://github.com/chrislerum/tigerpants"
-    gem.authors = ["Chris Lerum"]
-    gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
-    # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
+  Jeweler::Tasks.new do |gemspec|
+    gemspec.name = "tigerpants"
+    gemspec.summary = %Q{undecided}
+    gemspec.description = %Q{i'll decide soon, promise}
+    gemspec.email = "chris.lerum@gmail.com"
+    gemspec.homepage = "http://github.com/chrislerum/tigerpants"
+    gemspec.authors = ["Chris Lerum"]
+    gemspec.add_development_dependency "thoughtbot-shoulda", ">= 0"
+    # gemspec is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError
